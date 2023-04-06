@@ -1,0 +1,156 @@
+
+/* display */
+.d-inline-block{
+    display: inline-block;
+}
+.d-inline{
+    display: inline;
+}
+.d-table{
+    display: table;
+}
+.d-block{
+    display: block;
+}
+.d-inline-flex{
+    display: inline-flex;
+}
+
+/* flex */
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-space-btw{
+    justify-content: space-between;
+}
+.justify-space-evn{
+    justify-content: space-evenly;
+}
+.justify-space-ard{
+    justify-content: space-around;
+}
+
+.align-center{
+    align-items: center;
+}
+.column{
+    flex-direction: column;
+}
+.row{
+    flex-direction: row;
+}
+/* position */
+.absolute{
+    position: absolute;
+}
+.relative{
+    position: relative;
+}
+/* dimension */
+.height{
+    height: 100vh;
+}
+.max-height-100{
+    max-height: 100%;
+}
+.max-width-100{
+    max-width: 100%;
+}
+.min-height-100{
+    min-width: 100%;
+}
+.min-width-100{
+    min-width:100%;
+}
+/* margin padding */
+.margin-zero{
+    margin: 0;
+}
+.margin-y-med{
+    margin: calc(3rem + 1.5vh) 0;
+}
+.margin-x-med{
+    margin: 0 calc(2rem + 1.5vh);
+}
+.margin-f-y-med{
+    margin: 3rem 0;
+}
+.margin-f-bot-med{
+    margin-bottom: 3rem;
+}
+
+.margin-auto{
+    margin: auto;
+}
+/* background */
+.bg-white{
+    background-color: white;
+}
+.bg-black{
+    background-color: black;
+}
+.bg-teal{
+    background-color: rgb(7, 211, 211);
+}
+.bg-brown{
+    background-color: rgb(62, 44, 10);
+}
+.bg-green{
+    background-color: rgb(15, 199, 15);
+}
+/* font - text */
+.bold{
+    font-weight: 600;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.text-align-center{
+    text-align: center;
+}
+.text-align-left{
+    text-align: left;
+}
+.text-align-right{
+    text-align: right;
+}
+.text-shadow-black{
+    text-shadow: 0px 1px 1px black;
+}
+.text-decoration-none{
+    text-decoration: none;
+}
+/* liste */
+.list-style-none{
+    list-style: none;
+}
+/* responsive */
+.font-size-xlsmall{
+    font-size: calc(1rem + 1.2vw)
+}
+.font-size-small{
+    font-size: calc(1rem + 1.2vw)
+}
+.font-size-medium{
+    font-size: calc(1rem + 1.2vw)
+}
+.font-size-xl{
+    font-size: calc(3rem + 2.5vw)
+}
+/* fixe */
+.font-size-f-small{
+    font-size: 1rem;
+}
+.font-size-f-xmedium{
+    font-size :2rem;
+}
+.font-size-f-medium{
+    font-size :2.5rem;
+}
+/* colors */
+.white{
+    color: white;
+}
